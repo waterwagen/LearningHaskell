@@ -36,3 +36,5 @@ addList (x:xs) = x + addList(xs)
 firstLetter :: String -> String
 firstLetter "" = "No first letter because the string is empty"
 firstLetter all@ (x:xs) = "The first letter of " ++ all ++ " is " ++ [x]
+
+-- another test of Git and Intellij integration
