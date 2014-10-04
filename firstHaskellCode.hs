@@ -37,3 +37,4 @@ firstLetter :: String -> String
 firstLetter "" = "No first letter because the string is empty"
 firstLetter all@ (x:xs) = "The first letter of " ++ all ++ " is " ++ [x]
 
+-- test comment
